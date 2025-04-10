@@ -1,6 +1,6 @@
 # TERMBOTS
 
-[![GitHub](https://img.shields.io/badge/Visit-GitHub-black?style=for-the-badge&logo=github)](https://github.com/yogya-coder/Termbots)  
+[![GitHub](https://img.shields.io/badge/Visit-GitHub-black?style=for-the-badge&logo=github)](https://github.com/coder-yogya/Termbots)  
 [![Python](https://img.shields.io/badge/Python-3.12.9-yellow?style=for-the-badge&logo=python)](https://www.python.org/)  
 [![Pip](https://img.shields.io/badge/Pip-25.0.1-brightgreen?style=for-the-badge)](https://pip.pypa.io/)  
 [![Ollama](https://img.shields.io/badge/Ollama-Server-blueviolet?style=for-the-badge)](https://ollama.com/)  
@@ -24,7 +24,7 @@ This terminal chatbot allows you to:
 
 ## Prerequisites
 
-- **Ollama Server:**  
+- **Ollama**  
   Make sure you have the [Ollama](https://ollama.com/) installed and running on your system.
   
 - **System Requirements for Ollama:**  
@@ -33,20 +33,17 @@ This terminal chatbot allows you to:
 - **Python 3.12.9 (for no errors) & pip 25.0.1 or higher**
 - **git**
 	for cloning the repo
-- **cmake build tools (optional)**
-	for generating metadata and wheels for pydantic-core & many modules.
----
 
-## Installation
+## Installation (all systems)
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yogya-coder/Termbots.git
+   git clone https://github.com/coder-yogya/Termbots.git
    cd Termbots
    pip install -r libs.txt
    ollama serve
-   # in a new terminal run :
+   # in a new session run :
    cd Termbots
    python main.py
    ```
@@ -61,7 +58,7 @@ termux-change-repo # choose the `mirror groups` & `all mirrors in aisa` then `ok
 pkg install rust clang cmake binutils python ollama tur-repo -y # you can also install ollama from there github repo also
 # installed additional packages for error free installation of all modules 
 pkg install git wget -y
-git clone https://github.com/yogya-coder/Termbots.git
+git clone https://github.com/coder-yogya/Termbots.git
 cd Termbots
 pip install -r libs.txt
 ollama serve
