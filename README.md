@@ -67,3 +67,6 @@ cd Termbots
 python main.py
 ``` 
 **😁 Fun Fact:** `I've created it in TERMUX :)`
+---
+**If you Found this repo Helpfull plz:**
+**Support me (Github sponsors):** [![GitHub Sponsor](https://img.shields.io/badge/Sponsor%20Me-GitHub-blue?logo=github)](https://github.com/sponsors/coder-yogya)
