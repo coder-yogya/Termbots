@@ -52,19 +52,7 @@ This terminal chatbot allows you to:
 > - Install termux from f-droid
 > - **Run the commands below:**
 ```bash
-pkg update && pkg upgrade -y
-termux-setup-storage
-termux-change-repo # choose the `mirror groups` & `all mirrors in aisa` then `ok`
-pkg install rust clang cmake binutils python ollama tur-repo -y # you can also install ollama from there github repo also
-# installed additional packages for error free installation of all modules 
-pkg install git wget -y
-git clone https://github.com/coder-yogya/Termbots.git
-cd Termbots
-pip install -r libs.txt
-ollama serve
-# in a new session
-cd Termbots
-python main.py
+apt upgrade -y ; apt install binutils python rust clang -y ; apt install python-numpy git -y ; git clone https://github.com/coder-yogya/Termbots.git ; cd Termbots ; pip install -r libs.txt ; clear && python main.py 
 ```
 ---
 **😁 Fun Fact:** `I've created it in TERMUX :)`
