@@ -1,0 +1,15 @@
+[project]
+name = "termbots"
+version = "0.1.0"
+description = "Terminal-based AI tools like OllamaStudio"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Yogya", email = "yogya.coder@gmail.com"}]
+requires-python = ">=3.8"
+
+# Optional: if you have dependencies
+dependencies = []
+
+[build-system]
+requires = ["build", "hatchling"]
+build-backend = "hatchling.build"
