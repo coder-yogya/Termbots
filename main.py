@@ -102,7 +102,6 @@ def main():
         prompt = prompt_template.format(history=history_context, user_input=user_input)
 
         try:
-            #
             response = llm.invoke(prompt)
         except Exception as e:
             console.print("[red]An error occurred while processing your input.[/red]")
