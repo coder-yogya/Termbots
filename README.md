@@ -1,6 +1,6 @@
 # TERMBOTS
 
-[![GitHub](https://img.shields.io/badge/Visit-GitHub-black?style=for-the-badge&logo=github)](https://github.com/coder-yogya/Termbots)  
+[![GitHub](https://img.shields.io/badge/Visit-GitHub-black?style=for-the-badge&logo=github)](https://github.com/lilcoderhub/Termbots)  
 [![Python](https://img.shields.io/badge/Python-3.12.9-yellow?style=for-the-badge&logo=python)](https://www.python.org/)  
 [![Pip](https://img.shields.io/badge/Pip-25.0.1-brightgreen?style=for-the-badge)](https://pip.pypa.io/)  
 [![Ollama](https://img.shields.io/badge/Ollama-Server-blueviolet?style=for-the-badge)](https://ollama.com/)  
@@ -39,7 +39,7 @@ This terminal chatbot allows you to:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/coder-yogya/Termbots.git
+   git clone https://github.com/lilcoderhub/Termbots.git
    cd Termbots
    pip install -r libs.txt
    ollama serve
