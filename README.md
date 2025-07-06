@@ -1,6 +1,6 @@
 # TERMBOTS
 
-[![GitHub](https://img.shields.io/badge/Visit-GitHub-black?style=for-the-badge&logo=github)](https://github.com/lilcoderhub/Termbots)  
+[![GitHub](https://img.shields.io/badge/Visit-GitHub-black?style=for-the-badge&logo=github)](https://github.com/lilcloudcoder/Termbots)  
 [![Python](https://img.shields.io/badge/Python-3.12.9-yellow?style=for-the-badge&logo=python)](https://www.python.org/)  
 [![Pip](https://img.shields.io/badge/Pip-25.0.1-brightgreen?style=for-the-badge)](https://pip.pypa.io/)  
 [![Ollama](https://img.shields.io/badge/Ollama-Server-blueviolet?style=for-the-badge)](https://ollama.com/)  
@@ -39,7 +39,7 @@ This terminal chatbot allows you to:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/lilcoderhub/Termbots.git
+   git clone https://github.com/lilcloudcoder/Termbots.git
    cd Termbots
    pip install -r libs.txt
    ollama serve
@@ -52,7 +52,7 @@ This terminal chatbot allows you to:
 > - Install termux from f-droid
 > - **Run the commands below:**
 ```bash
-apt upgrade -y ; apt install binutils python rust clang -y ; apt install python-numpy git -y ; git clone https://github.com/coder-yogya/Termbots.git ; cd Termbots ; pip install -r libs.txt ; clear && python main.py 
+apt upgrade -y ; apt install binutils python rust clang -y ; apt install python-numpy git -y ; git clone https://github.com/lilcloudcoder/Termbots.git ; cd Termbots ; pip install -r libs.txt ; clear && python main.py 
 ```
 ---
 **😁 Fun Fact:** `I've created it in TERMUX :)`
